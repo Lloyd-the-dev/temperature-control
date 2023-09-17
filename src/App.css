@@ -1,0 +1,57 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.read-the-docs {
+  color: #888;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 0 auto;
+}
+.container h3{
+  font-size: 50px;
+}
+.increments{
+  display: flex;
+  justify-content: space-between;
+}
+.increments-item{
+   font-size: 27px;
+   background-color: gray;
+   border:  1px solid #fff;
+   border-radius: 50%;
+   padding: 0.7rem;
+   width: 29%;
+   height: 29%;
+   cursor: pointer;
+   color: white;
+}
+.cool{
+  background-color:dodgerblue;
+  transition: 1s ease-in-out;
+}
+.hot{
+  background-color: orangered;
+  transition: 1s ease-in-out;
+}
+.temperature{
+  margin: 2rem auto;
+  width: 35%;
+  border: 1px solid #fff;
+  padding: 2rem;
+  border-radius: 50%;
+}
+.omega{
+   padding: 1rem;
+   background-color: rgb(9, 92, 160);
+   width: 35%;
+   border-radius: 10px;
+   height: 300px;
+   margin: 0 auto;
+}
